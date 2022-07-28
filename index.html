@@ -1,0 +1,61 @@
+git <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <label for="nome"><strong>Nome:</strong></label>
+        <br><input type="text" placeholder="Digite seu nome aqui..." maxlength="50" id="nome" name="nome" required><br>
+        
+        <p>
+            <label for="email"><strong>E-mail:</strong></label></br>
+            <input type="text" placeholder="Digite seu email aqui..." maxlength="30" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="mensagem"></label><strong>Descreva aqui o que o motivou a participar do evento:</strong></label><br>
+            <textarea placeholder="Digite aqui sua mensagem..." name="mensagem" id="mensagem" cols="50" rows="10"></textarea><br>
+        </p>
+
+        <p>
+            <label for="modulo"><strong>Módulo:</strong></label><br>
+            <select name="modulo" id="modulo">
+                <option value="">Selecione o módulo do curso...</option>
+                <option value="m1">M1</option>
+                <option value="m2">M2</option>
+                <option value="m3">M3</option>
+                <option value="m4">M4</option>
+                <option value="m5">M5</option>
+                <option value="m6">M6</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="senha"><strong>Senha:</strong></label><br>
+            <input type="password" placeholder="Digite sua senha aqui..." maxlength="6" id="senha" name="senha">
+        </p>
+
+        <p>
+           <label for="confirmar"><strong>Confirmar senha:</strong></label><br>
+           <input type="password" placeholder="Digite sua senha aqui..." maxlength="6" id="confirmar" name="confirmar">
+        </p>
+
+        <p>
+        <strong>Deseja receber novidades em seu e-mail?</strong><br><br>
+           <label for="sim"><strong>Sim</strong></label>
+           <input type="radio" name="novidade" value="sim"> 
+
+           <label for="nao"><strong>Não</strong></label>
+           <input type="radio" name="novidade" value="nao"> 
+        </p>
+
+         <p>
+            <button type="submit">Cadastrar</button>
+        </p>
+
+    </form>
+</body>
+</html> 
